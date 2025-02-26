@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         int VtI = 700000, VtR = 200000, VtT = 600000, Vc1 = 0,Vc2 = 0, Vc3 = 0, ViIC1 = 0, ViRC1 = 0, ViTC1 = 0
-                , ViIC2 = 0, ViRC2 = 0, ViTC2 = 0, ViIC3 = 0, ViRC3 = 0, ViTC3 = 0, sumaV = 0, sumaTotal3 = 0, sumaTotal2 = 0, sumaTotal1 = 0;
+                , ViIC2 = 0, ViRC2 = 0, ViTC2 = 0, ViIC3 = 0, ViRC3 = 0, ViTC3 = 0, sumaV , sumaTotal3 = 0, sumaTotal2 = 0, sumaTotal1 = 0;
         boolean estado= true;
             while (estado){
                 System.out.println("\n Opciones");
@@ -166,7 +166,7 @@ public class Main {
                         System.out.println("El promedio de las campañas fue de : "+ SumaPromedio);
                         break;
                     case 6:
-                        estado = false
+                        estado = false;
                         System.out.println("Cerrando Programa...");
                     default:
                         System.out.println("Opción no válida.");
