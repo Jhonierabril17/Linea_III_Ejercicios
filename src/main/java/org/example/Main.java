@@ -17,6 +17,7 @@ public class Main {
                 System.out.println("3.Vaciar todas las urnas de la votación.");
                 System.out.println("4.Conocer el número total de votos y su porcentaje.");
                 System.out.println("5.Costo promedio de campaña en las elecciones.");
+                System.out.println("6.Salir.");
                 System.out.println("Elige una opcion");
                 int opc = sc.nextInt();
                 switch (opc){
@@ -164,6 +165,9 @@ public class Main {
                         SumaPromedio = (sumaTotal1 + sumaTotal2 + sumaTotal3) / 3;
                         System.out.println("El promedio de las campañas fue de : "+ SumaPromedio);
                         break;
+                    case 6:
+                        estado = false
+                        System.out.println("Cerrando Programa...");
                     default:
                         System.out.println("Opción no válida.");
                 }
