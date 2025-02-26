@@ -164,8 +164,9 @@ public class Main {
                         System.out.println("El promedio de las campañas fue de : "+ SumaPromedio);
                         break;
                     case 6:
-                        estado = false
+                        estado = false;
                         System.out.println("Cerrando Programa...");
+                        break;
                     default:
                         System.out.println("Opción no válida.");
                 }
